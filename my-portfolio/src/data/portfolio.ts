@@ -67,7 +67,7 @@ export interface Gamejam
     reflection: string
 }
 
-export type CertiStatus = '取得済み' | '受験予定' | '取得予定' | '学習中'
+export type CertStatus = '取得済み' | '受験予定' | '取得予定' | '学習中'
 
 export interface Certification
 {
@@ -75,7 +75,7 @@ export interface Certification
     date: string
     category: string
     score: string | null
-    status: CertiStatus
+    status: CertStatus
 }
 
 export interface TimelineItem
@@ -119,6 +119,65 @@ export const works: Work[] =
 [
     {
         id:1,
-        
-    }
+        title:'',
+        genre:'',
+        category:'game',
+        thumbnail:null,
+        screenshots:[],
+        description:'',
+        tags:['Unity','C#',''],
+        platform:['Windows'],
+        period:'',
+        team:'',
+        role:'プログラマー',
+        github:'',
+        link:null,
+        venues:[{name:'',date:''}],
+        techPoints:'',
+        designNotes:'',
+        implementationTheme:'',
+        troubleshooting:'',
+        performance:'',
+    },
 ]
+
+export const gameJams:Gamejam[] = 
+[
+    {
+        name:'',
+        date:'',
+        theme:'',
+        decsription:'',
+        platform:['Windows'],
+        role:'プログラマー',
+        team:'',
+        result:null,
+        url:'',
+        reflection:'',
+    },
+]
+
+export const certifications:Certification[] = 
+[
+    {
+        name:'',
+        date:'',
+        category:'',
+        score:'',
+        status:'取得済み',
+    },
+]
+
+export const timeline:TimelineItem[] = 
+[
+    {year:'',event:''}
+]
+
+export const CATEGORY_EMOJI:Record<string,string> = 
+{
+    game:'🎮',
+    web:'🌐',
+    '3d':'🧊',
+}
+
+export const CATEGORY_EMOJI_FALLBACK = '📁'
