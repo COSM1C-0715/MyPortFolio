@@ -3,8 +3,6 @@ import type{ReactNode} from 'react'
 import
 {
     works,
-    CATEGORY_EMOJI,
-    CATEGORY_EMOJI_FALLBACK,
 } from '../data/portfolio'
 import SafeImg from '../components/SafeImg'
 
@@ -37,7 +35,7 @@ export default function WorkDetail()
     if(!work) return <Navigate to="/" replace/>
 
     //2回使うので変数化(同じ式を繰り返さない)
-    const categoryEmoji = CATEGORY_EMOJI[work.category] ?? CATEGORY_EMOJI_FALLBACK
+    const categoryEmoji =""
 
     return(
         <div className="wd-page">
