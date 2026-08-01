@@ -2,8 +2,6 @@ import{Link} from 'react-router-dom'
 import
 {
     works,
-    CATEGORY_EMOJI,
-    CATEGORY_EMOJI_FALLBACK,
     type Work,
 } from '../data/portfolio'
 import SafeImg from './SafeImg'
@@ -16,7 +14,7 @@ function WorkCard({work}:{work:Work})
                 <SafeImg
                   src={work.thumbnail}
                   alt={work.title}
-                  fallback={CATEGORY_EMOJI[work.category] ?? CATEGORY_EMOJI_FALLBACK}
+                  fallback={""}
                   />
             </div>
             <div className="work-body">

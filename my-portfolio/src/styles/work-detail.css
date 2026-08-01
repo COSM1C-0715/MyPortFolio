@@ -215,6 +215,8 @@
   margin-bottom: 12px;
 }
 
+.wd-section-body {}
+
 /* セクション内の本文テキスト */
 .wd-text {
   font-size: 0.92rem;
