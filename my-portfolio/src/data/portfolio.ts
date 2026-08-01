@@ -100,7 +100,7 @@ export const profile: Profile = {
   graduationYear: '2028年3月卒業見込み',
   bio: '私はチーム制作をするとき、コミュニケーションを取ることを常に意識するようにしています。ゲーム企画の仕様書を見て、理解が曖昧な部分は全て聞いて解釈を擦り合わせたり、システムを実装するときもどういう風に設計したいかを他のプログラマーメンバーに相談したりしました。また、自分の担当箇所が終わった後は次担当する箇所を探したり、他の人に進捗度合いを確認し、手詰まり気味だったら意見を言ったりして考えを整理する手伝いをしたりして進捗が止まらないようにしました。そして、自分でプログラミングをするときは常にリファクタリングすることを心がけています。例えば、一つのクラスでやることをできるだけ一つに絞ったり、クラスの中の変数で使っている関数が1つしかなかったらフィールドからローカル変数に切り替えるということをしたりしています。うまくリファクタリングできた時はすごくうれしくなります。',
   motto: '変人ではあるが変態ではない',
-  avatar: 'https://jikeigroupcom-my.sharepoint.com/:i:/g/personal/m_kuroda_kyoto-tech_ac_jp/IQBIj6eo9Lm2S70G5V2M8NsTAZYdbI6KyenZ0xyKmt8ELvI?e=rZIurW',
+  avatar: 'https://drive.google.com/file/d/1TWj914rZfbKaUjDG_U1UeyMgOM8Lk6NE/view?usp=drive_link',
   links: {
     github: 'https://github.com/COSM1C-0715',
     twitter: 'https://x.com/LxVOCfPffq1lk7Z',
@@ -115,7 +115,7 @@ export const skills: Skill[] = [
     level: 80,
     category: 'game',
     capabilities: ['3D/2Dゲーム開発', 'Physics演算','ProceduralGeneration', 'ScriptableObject'],
-    note: 'プロシージャル迷宮生成・A*経路探索を個人作品で実装済み',
+    note: '',
   },
   {
     name: 'C#',
@@ -147,7 +147,7 @@ export const skills: Skill[] = [
     level: 65,
     category: 'vcs',
     capabilities: ['リポジトリ管理', 'Issues / PR', 'GitHub Actions基礎', 'GitHub Pages'],
-    note: '個人・チーム制作ともにGitHubで管理',
+    note: 'チーム制作をGitHubで管理',
   },
   {
     name: 'Windows',
@@ -166,7 +166,7 @@ export const works: Work[] = [
     genre: '3Dパズル',
     category: 'game',
     thumbnail: null,
-    screenshots: [],
+    screenshots: ["https://drive.google.com/file/d/1MKiODO4jKtf__wc1anf0neQMxI7ursQi/view?usp=drive_link"],
     description:
       'チーム制作で開発した3Dパズルゲーム。ルービックキューブの上に乗り物と道があり、スタート地点から進んでいく乗り物をルービックキューブを回転させる要領で道をつないでいき、ゴールまで導いてクリアを目指していきます。',
     tags: ['Unity', 'C#', 'ProceduralGeneration', 'NavMesh'],
@@ -197,7 +197,7 @@ export const works: Work[] = [
     genre: 'カジュアルアクションパズル2Dゲーム',
     category: 'game',
     thumbnail: null,
-    screenshots: [],
+    screenshots: ["https://drive.google.com/file/d/1sAWgwARI7xoCda4yybSNR0qvXBhoJBXh/view?usp=drive_link"],
     description:
       'チームで開発したカジュアルアクションパズル2Dゲーム。選んだ商品の金額を目指してガマちゃんと呼ばれる財布を振って小銭を出して高いスコアを目指すゲーム。',
     tags: ['Unity', 'C#', 'A*Pathfinding', 'ScriptableObject'],
