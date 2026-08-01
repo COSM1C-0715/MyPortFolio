@@ -1,13 +1,24 @@
 import{Link} from 'react-router-dom'
 import
 {
+    FaLocationDot,
+  FaArrowRight,
+  FaGithub,
+  FaArrowUpRightFromSquare,
+} from 'react-icons/fa6'
+import
+{
     works,
+    CATEGORY_ICON,
+    CATEGORY_ICON_FALLBACK,
     type Work,
 } from '../data/portfolio'
 import SafeImg from './SafeImg'
 
 function WorkCard({work}:{work:Work})
 {
+    const CategoryIcon = CATEGORY_ICON[work.category] ?? CATEGORY_ICON_FALLBACK
+
     return(
         <article className="work-card">
             <div className="work-thumnail">
@@ -33,7 +44,7 @@ function WorkCard({work}:{work:Work})
                             (
                                 (v,i) => 
                                 (
-                                    <span key={i} className="work-venue-tag">📍{v.name} {v.date}</span>
+                                    <span key={i} className="work-venue-tag"><FaLocationDot/>{v.name} {v.date}</span>
                                 )
                             )
                         }
@@ -51,20 +62,20 @@ function WorkCard({work}:{work:Work})
 
               <div className="work-links">
                 <Link to={`/works/${work.id}`} className="btn btn-primary work-btn">
-                  詳細を見る →
+                  詳細を見る <FaArrowRight/>
                 </Link>
                 {
                     work.github &&
                     (
                         <a href={work.github} className="btn btn-outline work-btn"
-                           target="_blank" rel="noreferrer">GitHub</a>
+                           target="_blank" rel="noreferrer"><FaGithub/>GitHub</a>
                     )
                 }
                 {
                     work.link &&
                     (
                         <a href={work.link} className="btn btn-outline work-btn"
-                           target="_blank" rel="noreferrer">Live Demo</a>
+                           target="_blank" rel="noreferrer"><FaArrowUpRightFromSquare/>Live Demo</a>
                     )
                 }
               </div>
