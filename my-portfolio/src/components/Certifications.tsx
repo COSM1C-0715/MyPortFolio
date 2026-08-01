@@ -20,6 +20,9 @@ const CATEGORY_ICONS: Record<string,IconType> =
     '免許': FaIdCard,
     'ベンダー認定': FaMedal,
     '競プロ': FaBolt,
+    'CTF': FaFlag,
+    'ISUON' : FaDesktop,
+    '学習中' : FaBookOpen
 }
 
 function StatusBadge({status}:{status:CertStatus})

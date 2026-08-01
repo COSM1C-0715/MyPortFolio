@@ -1,4 +1,5 @@
 import{Link}from 'react-router-dom'
+import { FaSun,FaMoon } from 'react-icons/fa6'
 import{profile}from '../data/portfolio'
 
 interface Props
@@ -24,7 +25,7 @@ export default function Header({theme,onThemeToggle}:Props)
             <div className="container">
                 <div className="header-inner">
                     {/*ロゴ: 常にホームへ戻る*/}
-                    <Link>
+                    <Link to="/" className="header-logo">
                         {profile.name.split(' ')[0]}<span>.</span>
                     </Link>
                     <nav>
@@ -48,7 +49,7 @@ export default function Header({theme,onThemeToggle}:Props)
                         onClick={onThemeToggle}
                         aria-label={theme === 'dark' ? 'ライトモードに切替' : 'ダークモードに切替'}
                     >
-                        {theme === 'dark' ? '☀️' : '🌙'}
+                        {theme === 'dark' ? <FaSun/> : <FaMoon/>}
                     </button>
                 </div>
             </div>
