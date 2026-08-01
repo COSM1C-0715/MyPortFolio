@@ -100,11 +100,11 @@ export const profile: Profile = {
   graduationYear: '2028年3月卒業見込み',
   bio: '私はチーム制作をするとき、コミュニケーションを取ることを常に意識するようにしています。ゲーム企画の仕様書を見て、理解が曖昧な部分は全て聞いて解釈を擦り合わせたり、システムを実装するときもどういう風に設計したいかを他のプログラマーメンバーに相談したりしました。また、自分の担当箇所が終わった後は次担当する箇所を探したり、他の人に進捗度合いを確認し、手詰まり気味だったら意見を言ったりして考えを整理する手伝いをしたりして進捗が止まらないようにしました。そして、自分でプログラミングをするときは常にリファクタリングすることを心がけています。例えば、一つのクラスでやることをできるだけ一つに絞ったり、クラスの中の変数で使っている関数が1つしかなかったらフィールドからローカル変数に切り替えるということをしたりしています。うまくリファクタリングできた時はすごくうれしくなります。',
   motto: '変人ではあるが変態ではない',
-  avatar: null,
+  avatar: 'https://jikeigroupcom-my.sharepoint.com/:i:/g/personal/m_kuroda_kyoto-tech_ac_jp/IQBIj6eo9Lm2S70G5V2M8NsTAZYdbI6KyenZ0xyKmt8ELvI?e=rZIurW',
   links: {
-    github: 'https://github.com/username',
-    twitter: 'https://twitter.com/username',
-    email: 'taro@example.com',
+    github: 'https://github.com/COSM1C-0715',
+    twitter: 'https://x.com/LxVOCfPffq1lk7Z',
+    email: 'ktc24a31a0024@edu.kyoto-tech.ac.jp',
   },
 }
 
