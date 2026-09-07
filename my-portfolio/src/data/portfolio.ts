@@ -155,7 +155,7 @@ export const skills: Skill[] = [
     level: 85,
     category: 'os',
     capabilities: [ 'PowerShell基礎', 'ファイルシステム管理'],
-    note: 'メイン開発環境。ゲーム開発・Web開発ともにWindows上で実施',
+    note: 'ゲーム開発をWindows上で実施',
   },
 ]
 
