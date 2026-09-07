@@ -114,7 +114,7 @@ export const skills: Skill[] = [
     version: '2022.3 LTS',
     level: 80,
     category: 'game',
-    capabilities: ['3D/2Dゲーム開発', 'Physics演算','ProceduralGeneration', 'ScriptableObject'],
+    capabilities: ['3D/2Dゲーム開発', 'ScriptableObject'],
     note: '',
   },
   {
@@ -122,7 +122,7 @@ export const skills: Skill[] = [
     version: '.NET 6 / Unity対応',
     level: 70,
     category: 'language',
-    capabilities: ['OOP設計', 'インターフェース活用', 'コルーチン', 'LINQ', 'ジェネリクス'],
+    capabilities: ['OOP設計', 'コルーチン', 'LINQ', 'ジェネリクス'],
     note: 'Unityゲーム開発を通じて実践的に習得',
   },
   {
@@ -138,7 +138,7 @@ export const skills: Skill[] = [
     version: '2.x',
     level: 70,
     category: 'vcs',
-    capabilities: ['ブランチ運用', 'プルリクエスト', 'コンフリクト解消', 'rebase/cherry-pick'],
+    capabilities: ['ブランチ運用', 'プルリクエスト', 'コンフリクト解消'],
     note: 'チーム開発でGitHub Flowを実践。コードレビュー経験あり',
   },
   {
@@ -146,7 +146,7 @@ export const skills: Skill[] = [
     version: 'GitHub.com',
     level: 65,
     category: 'vcs',
-    capabilities: ['リポジトリ管理', 'Issues / PR', 'GitHub Actions基礎', 'GitHub Pages'],
+    capabilities: ['リポジトリ管理', 'Issues / PR'],
     note: 'チーム制作をGitHubで管理',
   },
   {
@@ -154,7 +154,7 @@ export const skills: Skill[] = [
     version: 'Windows 11',
     level: 85,
     category: 'os',
-    capabilities: ['開発環境構築', 'PowerShell基礎', 'WSL2', 'ファイルシステム管理'],
+    capabilities: [ 'PowerShell基礎', 'ファイルシステム管理'],
     note: 'メイン開発環境。ゲーム開発・Web開発ともにWindows上で実施',
   },
 ]
@@ -169,7 +169,7 @@ export const works: Work[] = [
     screenshots: ["https://drive.google.com/file/d/1MKiODO4jKtf__wc1anf0neQMxI7ursQi/view?usp=drive_link"],
     description:
       'チーム制作で開発した3Dパズルゲーム。ルービックキューブの上に乗り物と道があり、スタート地点から進んでいく乗り物をルービックキューブを回転させる要領で道をつないでいき、ゴールまで導いてクリアを目指していきます。',
-    tags: ['Unity', 'C#', 'ProceduralGeneration', 'NavMesh'],
+    tags: ['Unity', 'C#'],
     platform: ['Windows', 'WebGL'],
     period: '2024年10月〜2025年2月（4ヶ月）',
     team: 'チーム制作',
@@ -178,7 +178,6 @@ export const works: Work[] = [
     link: null,
     venues: [
       { name: '学校 卒業制作展示会', date: '2026年2月' },
-      { name: 'itch.io 公開', date: '2026年3月〜' },
     ],
     techPoints:
       '線路が回転したときに乗り物も一緒に回転するように、乗り物が線路の上に来た時に、乗り物を乗っている線路の子オブジェクトになるようにしました。',
@@ -203,8 +202,8 @@ export const works: Work[] = [
     tags: ['Unity', 'C#', 'ScriptableObject'],
     platform: ['Windows'],
     period: '2025年6月〜2025年9月（4ヶ月）',
-    team: '3人（PG×2、レベルデザイン×1）',
-    role: 'メインプログラマー（敵AI・ゲームループ担当）',
+    team: '10人（PG×4、デザイナー×4、プランナーx2）',
+    role: 'メインプログラマー（基礎動作担当）',
     github: 'https://github.com/Shin2519/Gamachan.git',
     link: null,
     venues: [
@@ -231,7 +230,7 @@ export const gameJams: GameJam[] = [
     description: '2Dパズル、指定の金額を目指してお金を入れていく',
     platform: ['WebGL', 'Windows'],
     role: 'プログラマー',
-    team: '4名（PG×2・デザイナー×1・サウンド×1）',
+    team: '10人（PG×4、デザイナー×4、プランナーx2）',
     result: null,
     url: 'https://itch.io/username/ggj2025',
     reflection: 'ゲームの経験がない方にもやってもらえるので想定していない方法がたくさん見つかり、とても勉強になった。',
