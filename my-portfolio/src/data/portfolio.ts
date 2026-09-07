@@ -203,7 +203,7 @@ export const works: Work[] = [
     platform: ['Windows'],
     period: '2025年6月〜2025年9月（4ヶ月）',
     team: '10人（PG×4、デザイナー×4、プランナーx2）',
-    role: 'メインプログラマー（基礎動作担当）',
+    role: 'メインプログラマー（基礎動作・ランキングの処理と表示・小銭がトレイに落ちたときの処理・評価によるガマちゃんの表情の変化担当）',
     github: 'https://github.com/Shin2519/Gamachan.git',
     link: null,
     venues: [
