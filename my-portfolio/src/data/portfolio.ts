@@ -152,7 +152,7 @@ export const skills: Skill[] = [
   {
     name: 'Windows',
     version: 'Windows 11',
-    level: 85,
+    level: 65,
     category: 'os',
     capabilities: [ 'PowerShell基礎', 'ファイルシステム管理'],
     note: 'ゲーム開発をWindows上で実施',
