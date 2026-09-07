@@ -200,7 +200,7 @@ export const works: Work[] = [
     screenshots: ["https://drive.google.com/file/d/1sAWgwARI7xoCda4yybSNR0qvXBhoJBXh/view?usp=drive_link"],
     description:
       'チームで開発したカジュアルアクションパズル2Dゲーム。選んだ商品の金額を目指してガマちゃんと呼ばれる財布を振って小銭を出して高いスコアを目指すゲーム。',
-    tags: ['Unity', 'C#', 'A*Pathfinding', 'ScriptableObject'],
+    tags: ['Unity', 'C#', 'ScriptableObject'],
     platform: ['Windows'],
     period: '2025年6月〜2025年9月（4ヶ月）',
     team: '3人（PG×2、レベルデザイン×1）',
