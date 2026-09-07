@@ -138,8 +138,8 @@ export const skills: Skill[] = [
     version: '2.x',
     level: 70,
     category: 'vcs',
-    capabilities: ['ブランチ運用', 'プルリクエスト', 'コンフリクト解消'],
-    note: 'チーム開発でGitHub Flowを実践。コードレビュー経験あり',
+    capabilities: ['ブランチ運用', 'コンフリクト解消'],
+    note: 'チーム制作でプッシュ、コミット、ブランチをした経験あり',
   },
   {
     name: 'GitHub',
